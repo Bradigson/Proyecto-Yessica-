@@ -1,0 +1,612 @@
+.sesion1__p1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    height:653px;
+    position:relative;
+    overflow-y:hidden;
+    overflow-x:hidden;
+
+}
+
+form{
+    width:270px;
+    height:300px;
+    padding:15px 15px;
+    display:grid;
+    place-items:center;
+    background:rgba(255,255,255,.3);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    position:absolute;
+    z-index:100;
+}
+#nombre, #fecha{
+    margin-bottom:-60px;
+
+}
+#boton{
+    width:180px;
+}
+
+#heart1,#heart2, #heart3, #heart4, #heart5{
+    width:50px;
+    position:absolute;
+    bottom:0px;
+    transform:translatey(50px);  
+    animation-name:heart;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+}
+#heart2{
+    right:0px;
+    animation-duration:30s; 
+  
+}
+#heart3{
+    left:0px;
+    animation-duration:20s; 
+    animation-timing-function:ease-in-out;
+  
+}
+#heart4{
+    left:50px;
+    animation-duration:50s; 
+    animation-timing-function:ease-out;
+  
+}
+#heart5{
+    left:80px;
+    animation-duration:20s; 
+    animation-timing-function:linear;
+  
+}
+#heart6{
+
+    width:50px;
+    transform:translatey(50px);  
+    position:absolute;
+    bottom:0px;
+    animation-name:heart2;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-iteration-count:ease-out;
+  
+}
+#heart7{
+    width:50px;
+    transform:translatey(50px);  
+    position:absolute;
+    bottom:0px;
+    animation-name:heart3;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    
+}
+#heart8{
+    
+    width:50px;
+    transform:translatey(50px);  
+    position:absolute;
+    bottom:0px;
+    right:210px;
+    animation-name:heart;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-out
+
+}
+#heart9{
+    width:50px;
+    transform:translatey(50px);  
+    position:absolute;
+    bottom:0px;
+    right:100px;
+    animation-name:heart3;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-out;
+    
+}
+#heart10{
+    
+    width:50px;
+    transform:translatey(50px);  
+    position:absolute;
+    bottom:0px;
+    right:-10px;
+    animation-name:heart;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-out
+
+}
+
+@keyframes heart{
+    0%{
+        transform: translatey(-700px);
+    }
+}
+
+@keyframes heart2{
+
+    0%{
+        transform: perspective(400px) rotate(45deg) translatey(-700px);
+       
+    }
+}
+@keyframes heart3{
+
+    0%{
+        transform: perspective(400px) rotate(-55deg) translatey(-700px);
+       
+    }
+}
+
+
+@media screen and (min-width:411px){
+    .sesion1__p1{
+        height:730px;
+    }
+    form{
+        width:380px;
+    }
+    @keyframes heart{
+        0%{
+            transform: translatey(-800px);
+        }
+    }
+    
+    @keyframes heart2{
+    
+        0%{
+            transform: perspective(400px) rotate(45deg) translatey(-800px);
+           
+        }
+    }
+    @keyframes heart3{
+    
+        0%{
+            transform: perspective(400px) rotate(-55deg) translatey(-800px);
+           
+        }
+}
+}
+
+
+@media screen and (min-width:320px) and (max-width:359px){
+    .sesion1__p1{
+        height:567px;
+    }
+    
+}
+@media screen and (min-width:375px){
+    .sesion1__p1{
+        height:812px;
+        overflow-y:hidden;
+    }
+    body{
+        overflow-y:hidden;
+    }
+    form{
+        width:350px;
+    }
+
+
+
+    
+@keyframes heart{
+    0%{
+        transform: translatey(-900px);
+    }
+}
+
+@keyframes heart2{
+
+    0%{
+        transform: perspective(400px) rotate(45deg) translatey(-900px);
+       
+    }
+}
+@keyframes heart3{
+
+    0%{
+        transform: perspective(400px) rotate(-55deg) translatey(-900px);
+       
+    }
+}
+    
+}
+
+@media screen and (min-width:414px){
+    .sesion1__p1{
+        height:735px;
+    }
+    form{
+        width:370px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:768px){
+    .sesion1__p1{
+        height:1023px;
+    }
+
+    form{
+        width:650px;
+        height:400px;
+        padding:60px 100px;;
+    }
+    @keyframes heart{
+        0%{
+            transform: translatey(-1030px);
+        }
+    }
+    
+    @keyframes heart2{
+    
+        0%{
+            transform: perspective(400px) rotate(45deg) translatey(-1030px);
+           
+        }
+    }
+    @keyframes heart3{
+    
+        0%{
+            transform: perspective(400px) rotate(-55deg) translatey(-1030px);
+           
+        }
+    }
+}
+
+
+@media screen and (min-width:1024px){
+
+    .sesion1__p1{
+        height:1363px;
+    }
+
+
+    @keyframes heart{
+        0%{
+            transform: translatey(-1380px);
+        }
+    }
+    
+    @keyframes heart2{
+    
+        0%{
+            transform: perspective(400px) rotate(45deg) translatey(-1380px);
+           
+        }
+    }
+    @keyframes heart3{
+    
+        0%{
+            transform: perspective(400px) rotate(-55deg) translatey(-1380px);
+           
+        }
+    }
+}
+
+@media screen and (min-width:1026px){
+    .sesion1__p1{
+        height:757px;
+    }
+
+}
+
+
+
+
+/*pagina 2*/
+header{
+    background:rgba(169, 50, 38 );
+    position:fixed;
+    width:100%;
+    height:70px;
+    padding-left:20px;
+    padding-top:5px;
+    z-index:100;
+    display:flex;
+    align-items:center;
+}
+
+.sesion1__p2{
+    background:linear-gradient(rgba(169, 50, 38,.2), rgba(169, 50, 38,.2)), url(../imgs/4871703.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    height:652px;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#header-p2{
+    position:absolute;
+    width:250px;
+    filter:drop-shadow(1px 1px 30px rgba(231, 76, 60));
+    animation-name:heartp2;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:linear;
+}
+#mom-p2{
+    width:90px;
+    position:absolute;
+    border-radius:30px;
+
+    
+}
+
+@keyframes heartp2{
+
+    0%{
+        transform:scale(0.80);
+    }
+   
+}
+
+
+header h1{
+    animation-name:h1;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    
+
+}
+@keyframes h1{
+    0%{
+        transform:translatex(-200px);
+    
+        
+    }
+    50%{
+        transform:scale(0.90);
+    }
+    100%{
+        trasnform:scale(1);
+    }
+}
+
+
+.card{
+    position:absolute;
+    width:240px;
+    height:195px;
+    margin-top:440px;
+    font-size:12px;
+}
+.card h2{
+    font-size:18px;
+}
+
+#img1-p2, #img4-p2{
+    width:90px;
+    position:absolute;
+    top:100px;
+    border-radius:20rem;
+    animation-name:jesi;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+  
+}
+#img1-p2{
+    right:15px;
+}
+#img4-p2{
+    left:15px;  
+}
+
+@keyframes jesi{
+    0%{
+        box-shadow:0 0 0 0 rgba(231, 76, 60,0.7);
+    }
+    70%{
+        box-shadow:0 0 0 10px rgba(231, 76, 60,0);
+    }
+    100%{
+        box-shadow:0 0 0 0 rgba(231, 76, 60,0);
+    }
+}
+
+span{
+    color:rgb(231, 76, 60);
+    animation-name:pan;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    
+}
+@keyframes pan{
+    0%{
+        font-size:8px;
+    }
+}
+
+
+
+@media screen and (min-width:360px){
+    .sesion1__p2{
+        height:640px;
+        padding-bottom:30px;
+    }
+    .card{
+        width:300px;
+    }
+}
+
+@media screen and (min-width:411px){
+    .sesion1__p2{
+        height:730px;
+        
+    }
+    .card{
+        width:350px;
+        margin-top:530px;
+    }
+    #header-p2{
+        width:300px;
+    }
+    #mom-p2{
+        width:100px;
+    }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:359px){
+ 
+    .sesion1__p2{
+        height:567px;
+        padding-bottom:50px;
+        
+    }
+    .card{
+        width:300px;
+        height:170px;
+        
+    }
+    #header-p2{
+        width:250px;
+        margin-top:50px;
+    }
+    #mom-p2{
+        width:100px;
+        margin-top:50px;
+    }
+
+    #img1-p2, #img4-p2{
+        top:85px;
+    }
+}
+
+
+@media screen and (min-width:375px){
+
+    .sesion1__p2{
+        height:667px;
+      
+        
+    }
+}
+@media screen and (min-width:414px){
+
+    .sesion1__p2{
+        height:735px;
+      
+        
+    }
+}
+
+@media screen and (min-width:768px){
+
+    .sesion1__p2{
+        height:1023px;
+    }
+    #header-p2{
+        width:400px;
+    }
+    .card{
+        margin-top:700px;
+        width:500px;
+        font-size:15px;
+    }
+    #img1-p2, #img4-p2{
+        width:180px;
+    }
+    #img1-p2{
+        right:60px;
+    }
+    #img4-p2{
+        left:60px;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    .sesion1__p2{
+        height:1365px;
+    }
+    
+    #img1-p2, #img4-p2{
+        width:250px;
+        top:150px;
+    }
+    #img1-p2{
+        right:60px;
+    }
+    #img4-p2{
+        left:60px;
+    }
+    .card{
+        margin-top:900px;
+        height:300px;
+        width:700px;
+        font-size:27px;
+    }
+    .card h2{
+        font-size:35px;
+    }
+
+
+    #header-p2{
+        width:600px;
+    }
+    #mom-p2{
+        width:200px;
+    }
+
+    @keyframes pan{
+        0%{
+            font-size:20px;
+        }
+    }
+
+    
+@keyframes jesi{
+    0%{
+        box-shadow:0 0 0 0 rgba(231, 76, 60,0.7);
+    }
+    70%{
+        box-shadow:0 0 0 20px rgba(231, 76, 60,0);
+    }
+    100%{
+        box-shadow:0 0 0 0 rgba(231, 76, 60,0);
+    }
+}
+}
+@media screen and (min-width:1026px){
+    .sesion1__p2{
+        height:757px
+    }
+    .card{
+        font-size:15px;
+        width:190px;
+        height:295px;
+        margin-top:1000px;
+        opacity:.0;
+    }
+    .card h2{
+        font-size:15px;
+    }
+    #mom-p2{
+        width:230px;
+    }
+    #header-p2{
+        width:690px;
+    }
+}
